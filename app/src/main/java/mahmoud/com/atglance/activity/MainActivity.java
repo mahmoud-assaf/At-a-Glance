@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 		}
 		weatherConfig = new WeatherConfig();
 		setContentView(R.layout.activity_main);
-		MobileAds.initialize(this, "ca-app-pub-8876457188000522~7467993962");
+		MobileAds.initialize(this, "");
 		if (getIntent().hasExtra("category")) {
 			currentCategory = getIntent().getStringExtra("category");
 			//  Log.e("from not: ", "yes");

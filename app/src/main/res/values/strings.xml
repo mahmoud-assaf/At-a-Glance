@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">At a Glance</string>
 
 
@@ -6,7 +6,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="longtitle">headline 1 </string>
     <string name="send_to">Send to</string>
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id"></string>
     <string name="opened">opened</string>
     <string name="closed">drawer closed</string>
     <string name="settings">Settings</string>
