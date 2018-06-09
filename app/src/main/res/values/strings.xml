@@ -1,0 +1,269 @@
+<resources>
+    <string name="app_name">At a Glance</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="longtitle">headline 1 </string>
+    <string name="send_to">Send to</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="opened">opened</string>
+    <string name="closed">drawer closed</string>
+    <string name="settings">Settings</string>
+    <string name="no_weather_conditions">Could not get weather condition</string>
+    <string name="clear">Clear</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="foggy">Foggy</string>
+    <string name="hazy">Hazy</string>
+    <string name="icy">Icy</string>
+    <string name="rainy">Rainy</string>
+    <string name="snowy">Snowy</string>
+    <string name="stormy">Stormy</string>
+    <string name="windy">Windy</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="something_wrong_sources">something went wrong while getting sources list</string>
+    <string name="articel_saved_success">Article successfully saved</string>
+    <string name="general_category">General</string>
+    <string name="weather_error">Could not get weather.</string>
+    <string name="weather_info_error">Could not get weather info \n    - Location is turned off \n  - Location access permission is not granted \n  - Google play services out of date</string>
+    <string name="unit_saved">Default unit saved</string>
+    <string name="alerts_muted">Alerts notifications muted</string>
+    <string name="alerts_unmuted">Alerts notifications unmuted</string>
+    <string name="choose_country">Choose your country</string>
+    <string name="country_saved">country  saved</string>
+    <string name="saved_success">Saved successfully</string>
+    <string name="maximum_20">Maximum 20 source allowed</string>
+    <string name="alerts">Alerts</string>
+    <string name="alerts_saved">Alerts saved</string>
+    <string name="done">Done</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="version">Version 1.0</string>
+    <string name="my_email">Azolidine@gmail.com</string>
+    <string name="cant_find_lang">-Can\'t find my country/language ?</string>
+    <string name="provider_limitation">This is API news provider limitation . sorry</string>
+    <string name="powered_by">Powered by Newsapi.org</string>
+    <string name="skip">Skip</string>
+    <string name="hash_general">#General</string>
+    <string name="hash_entertainment">#Entertainment</string>
+    <string name="hash_sports">#Sports</string>
+    <string name="hash_health">#Health</string>
+    <string name="hash_technology">#Technology</string>
+    <string name="hash_business">#Business</string>
+    <string name="hash_science">#Science</string>
+    <string name="your_country">Your country :</string>
+    <string name="temprature_unit">Temprature unit :</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenhiet">Fahrenhiet</string>
+    <string name="alerts_settings">Alerts :</string>
+    <string name="mute_alerts_notifications">Mute alerts notifications</string>
+    <string name="enter_keywords">Enter keywords (separated by comma ,)you like to get alerted when appear in headlines</string>
+    <string name="from">From :</string>
+    <string name="choose_date">choose date</string>
+    <string name="to">To :</string>
+    <string name="tips">Tips : \n  -Surround phrases with quotes (" ") for exact match \n   -Prepend words or phrases that must appear with a + symbol. Eg: +bitcoin  \n  -Prepend words that must not appear with a - symbol. Eg: -bitcoin</string>
+    <string name="enter_your_search">Enter your search</string>
+    <string name="custom_date">Custom date</string>
+    <string name="search_for">Search for :</string>
+    <string name="language">Language</string>
+    <string name="all">all</string>
+    <string name="sources">Sources</string>
+    <string name="maximum_20_source">(maximum 20 source)</string>
+    <string name="sort_by">Sort by</string>
+    <string name="search">Search</string>
+    <string name="loading">loading .....</string>
+    <string name="headline_image">headline image</string>
+    <string name="top_general_headlines">Top general headlines</string>
+    <string name="search_current_news">search current headlines</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="advanced_search">Advanced search</string>
+    <string name="search_edit_error">Please enter your search words/phrase</string>
+    <string name="error_search_keywords">Error interpreting your search words</string>
+    <string name="manage_subscriptions">Manage Subscriptions</string>
+    <string name="manage_alerts">Manage Alerts</string>
+    <string name="save">Save</string>
+    <string name="latest">Latest</string>
+    <string name="saved">Saved</string>
+    <string name="clear_all">Clear all</string>
+    <string name="ok">OK</string>
+    <string name="remove_article">Remove this headline ?</string>
+    <string name="remove">REMOVE</string>
+    <string name="category_business">Business</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_health">Health</string>
+    <string name="category_science">Science</string>
+    <string name="category_technology">Technology</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="no_results_found">No results found</string>
+    <string name="try_again">Try again</string>
+    <string name="dots">...</string>
+    <string name="share">Share</string>
+    <string name="error_connect_api_service">Cannot connect to google api services.</string>
+    <string name="no_subs">You have no subscriptions yet</string>
+
+    <string-array name="countries_codes">
+        <item>ae</item>
+        <item>ar</item>
+        <item>au</item>
+        <item>be</item>
+        <item>bg</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>ch</item>
+        <item>cn</item>
+        <item>co</item>
+        <item>cu</item>
+        <item>cz</item>
+        <item>de</item>
+        <item>eg</item>
+        <item>fr</item>
+        <item>gb</item>
+        <item>gr</item>
+        <item>hk</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>ie</item>
+
+        <item>in</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>kr</item>
+        <item>lt</item>
+
+        <item>lv</item>
+        <item>ma</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>ng</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>nz</item>
+        <item>ph</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>rs</item>
+        <item>ru</item>
+        <item>sa</item>
+        <item>se</item>
+        <item>sg</item>
+        <item>si</item>
+        <item>sk</item>
+        <item>th</item>
+        <item>tr</item>
+
+        <item>tw</item>
+        <item>ua</item>
+        <item>us</item>
+        <item>ve</item>
+        <item>za</item>
+        <item></item>
+    </string-array>
+    <string-array name="countries_names">
+        <item>United Arab Emirates	</item>
+        <item>Argentina	</item>
+        <item>Australia	</item>
+        <item>Belgium</item>
+        <item>Bulgaria</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Switzerland</item>
+        <item>China</item>
+        <item>Colombia	</item>
+        <item>Cuba</item>
+        <item>Czechia</item>
+        <item>Germany</item>
+        <item>Egypt</item>
+        <item>France</item>
+        <item>United Kingdom of Great Britain and Northern Ireland</item>
+        <item>Greece</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+
+        <item>India</item>
+        <item>Italy</item>
+        <item>Japan	</item>
+        <item>Republic of Korea</item>
+        <item>Lithuania</item>
+
+        <item>Latvia</item>
+        <item>Morocco</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Nigeria</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>New Zealand</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Russian Federation</item>
+        <item>Saudi Arabia</item>
+        <item>Sweden</item>
+        <item>Singapore</item>
+        <item>Slovenia</item>
+        <item>Slovakia</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+
+        <item>Taiwan, China</item>
+        <item>Ukraine</item>
+        <item>United States of America</item>
+        <item>Venezuela</item>
+        <item>South Africa</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="languages_code">
+        <item></item>
+
+        <item>ar</item>
+        <item>de</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+
+        <item>it</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>se</item>
+
+        <item>zh</item>
+    </string-array>
+
+
+    <string-array name="language_names">
+        <item>All languages</item>
+        <item>Arabic</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>français</item>
+        <item>Italiano</item>
+        <item>Dutch, Flemish</item>
+        <item>Norsk</item>
+        <item>Português</item>
+        <item>русский</item>
+        <item>Davvisámegiella</item>
+
+        <item>中文 Zhōngwén</item>
+
+    </string-array>
+
+
+    <string-array name="sort_options">
+
+        <item>Publish Date</item>
+        <item>Relevancy</item>
+
+        <item>Popularity</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/scrim">
+
+    <TextView
+        android:id="@+id/temprature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:text="@string/dots"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:drawableStart="@drawable/humidity"
+        android:text="@string/dots"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/temprature"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:singleLine="false"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weatherimageframe" />
+
+    <FrameLayout
+        android:id="@+id/weatherimageframe"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/condition"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/no_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/weather_error"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/foggy" />
+
+        <ImageView
+            android:id="@+id/clear_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/clear"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/clear_day" />
+
+
+        <ImageView
+            android:id="@+id/cloudy_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/cloudy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/cloudy_day" />
+
+
+        <ImageView
+            android:id="@+id/stormy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top|end"
+            android:contentDescription="@string/stormy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/storm" />
+
+        <ImageView
+            android:id="@+id/rainy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top|start"
+            android:contentDescription="@string/rainy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/rain" />
+
+
+        <ImageView
+            android:id="@+id/windy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="@string/windy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/wind" />
+
+        <ImageView
+            android:id="@+id/snowy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="bottom|start"
+            android:contentDescription="@string/snowy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/snowy" />
+
+
+        <ImageView
+            android:id="@+id/foggy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/foggy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/foggy" />
+
+        <ImageView
+            android:id="@+id/hazyy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:contentDescription="@string/hazy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/hazy" />
+
+        <ImageView
+            android:id="@+id/icy_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="top|center_horizontal"
+            android:contentDescription="@string/icy"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/icy" />
+
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">At a Glance</string>
+
+    <string name="settings">اعدادات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="longtitle">عنوان </string>
+    <string name="send_to">أرسل الى</string>
+    <string name="something_wrong">حدث خطأ ما </string>
+    <string name="something_wrong_sources">حدث حطأ اثناء جلب قائمة المصادر</string>
+    <string name="articel_saved_success">تم حفظ المقال بنجاح</string>
+    <string name="general_category">عام</string>
+    <string name="weather_error">صعوبة فى جلب معلومات الطقس.</string>
+
+    <string name="no_weather_conditions">خطأ أثناء جلب معلومات الطقس</string>
+    <string name="clear">صافي</string>
+    <string name="cloudy">سحب</string>
+    <string name="foggy">شبورة</string>
+    <string name="hazy">ضبابي</string>
+    <string name="icy">جليدي</string>
+    <string name="rainy">مطير</string>
+    <string name="snowy">ثلوج</string>
+    <string name="stormy">عاصف</string>
+    <string name="windy">رياح</string>
+
+    <string name="weather_info_error">صعوبة فى جلب معلومات الطقس.    -خدمة الموقع مغلقة   - اذن استخدام الموقع غير متاح    - خدمات جوجل بلاي غير محدثة</string>
+    <string name="unit_saved">تم حفظ الوحدة الافتراضية</string>
+    <string name="alerts_muted"> كتم الاشعارات</string>
+    <string name="alerts_unmuted">عدم كتم الاشعارات</string>
+    <string name="mute_alerts_notifications">كتم اشعارات التنبيهات</string>
+
+    <string name="choose_country">اختر بلدك</string>
+    <string name="country_saved">تم حفظ البلد</string>
+    <string name="saved_success">تم الحفظ</string>
+    <string name="maximum_20">حد أقصي 20 مصدرا اخباريا</string>
+    <string name="channel_name">At a Glance</string>
+    <string name="alerts">التنبيهات</string>
+    <string name="alerts_saved">تم حفظ التنبيهات</string>
+    <string name="done">تم</string>
+    <string name="cancel">الغاء</string>
+    <string name="about">عن التطبيق</string>
+    <string name="version">نسخة 1</string>
+    <string name="cant_find_lang">-لا أجد بلدى أو لغتى</string>
+    <string name="provider_limitation">عذرا هذا يرجع لمقدم خدمة الاخبار</string>
+    <string name="enter_keywords">"comma" أدخل الكلمات اللى تريد التنبيه عنها مفصولة بفاصلة ,</string>
+    <string name="powered_by">Powered by Newsapi.org</string>
+    <string name="skip">تخطي</string>
+    <string name="hash_general">#عام</string>
+    <string name="hash_entertainment">#ترفيه</string>
+    <string name="hash_sports">#رياضة</string>
+    <string name="hash_health">#صحة</string>
+    <string name="hash_technology">#تكنولوجيا</string>
+    <string name="hash_business">#أعمال</string>
+    <string name="hash_science">#علوم</string>
+    <string name="your_country">بلدك :</string>
+    <string name="temprature_unit">وحدة الحرارة :</string>
+    <string name="celsius">سيليزيوس</string>
+    <string name="fahrenhiet">فهرنهايت</string>
+    <string name="alerts_settings">التنبيهات : </string>
+    <string name="from">من :</string>
+    <string name="choose_date">اختر تاريخا</string>
+    <string name="to">حتي :</string>
+    <string name="tips">مساعدات
+-ضع الجمل الكاملة بين علامتى تنصيص ""
+-اسبق الكلمات التى لابد ان توجد بعلامة +
+-اسبق الكلامات التى لا تريد ان توجد بعلامة -
+</string>
+    <string name="enter_your_search">ادخل كلمات البحث</string>
+    <string name="custom_date">تاريخ معين</string>
+    <string name="search_for">ابحث عن :</string>
+    <string name="language">اللغة</string>
+    <string name="all">الكل</string>
+    <string name="sources">المصادر الاخبارية</string>
+    <string name="maximum_20_source">حد أقصي  20 مصدرا اخباريا</string>
+    <string name="sort_by">ترتيب بـ</string>
+    <string name="search">بحــــــث</string>
+    <string name="loading">تحميل ....</string>
+    <string name="headline_image">صورة الخبر</string>
+    <string name="top_general_headlines">احدث الاخبار العامة</string>
+    <string name="search_current_news">ابحث فى الاخبار الحالية</string>
+    <string name="subscriptions">الاشتراكات</string>
+    <string name="advanced_search">بحث متقدم</string>
+    <string name="search_edit_error">ادخل كلمات \ جمل البحث </string>
+    <string name="error_search_keywords">خطأ فى كلمات البحث</string>
+    <string name="manage_subscriptions">ادارة الاشتراكات</string>
+    <string name="manage_alerts">ادارة التنبيهات</string>
+    <string name="save">حفظ</string>
+    <string name="latest">الأحدث</string>
+    <string name="saved">محفوظات</string>
+    <string name="clear_all">مسح الكل</string>
+    <string name="ok">تم</string>
+    <string name="remove_article">حذف المقال من المحفوظات ؟</string>
+    <string name="remove">حذف</string>
+
+    <string name="category_business">أعمال</string>
+    <string name="category_sports">رياضة</string>
+    <string name="category_health">صحة</string>
+    <string name="category_science">علوم</string>
+    <string name="category_technology">تكنولوجيا</string>
+    <string name="category_entertainment">ترفيه</string>
+    <string name="no_results_found">لا توجد نتائج</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="dots">...</string>
+    <string name="share">شارك</string>
+    <string name="error_connect_api_service">خطأ فى الاتصال ب google api services.</string>
+    <string name="no_subs">لم تشترك فى مصادر اخبارية بعد</string>ا
+
+
+    <string-array name="countries_names">
+        <item>الإمارات العربية المتحدة	</item>
+        <item>الأرجنتين	</item>
+        <item>أستراليا	</item>
+        <item>بلجيكا</item>
+        <item>بلغاريا</item>
+        <item>البرازيل</item>
+        <item>كندا</item>
+        <item>سويسرا</item>
+        <item>الصين </item>
+        <item>كولومبيا	</item>
+        <item>كوبا</item>
+        <item>الجمهورية التشيكية</item>
+        <item>ألمانيا</item>
+        <item>مصر</item>
+        <item>فرنسا</item>
+        <item>Uالمملكة المتحدة
+</item>
+        <item>اليونان</item>
+        <item>هونغ كونغ</item>
+        <item>المجر</item>
+        <item>أندونيسيا</item>
+        <item>جمهورية أيرلندا</item>
+
+        <item>الهند</item>
+        <item>إيطاليا</item>
+        <item>اليابان	</item>
+        <item>كوريا </item>
+        <item>لتوانيا</item>
+
+        <item>لاتفيا</item>
+        <item>المغرب</item>
+        <item>المكسيك</item>
+        <item>ماليزيا</item>
+        <item>نيجيريا</item>
+        <item>هولندا</item>
+        <item>النرويج</item>
+        <item>نيوزيلندا</item>
+        <item>الفليبين</item>
+        <item>بولندا</item>
+        <item>البرتغال</item>
+        <item>رومانيا</item>
+        <item>جمهورية صربيا</item>
+        <item>روسيا</item>
+        <item>السعودية</item>
+        <item>السويد</item>
+        <item>سنغافورة</item>
+        <item>سلوفينيا</item>
+        <item>سلوفاكيا</item>
+        <item>تايلندا</item>
+        <item>تركيا</item>
+
+        <item>تايوان</item>
+        <item>أوكرانيا</item>
+        <item>الولايات المتحدة	</item>
+        <item>فنزويلا</item>
+        <item>جنوب أفريقيا</item>
+        <item>أخري</item>
+    </string-array>
+
+
+    <string-array name="language_names">
+        <item>العربية</item>
+        <item>	الألمانية</item>
+        <item>الانجليزية</item>
+        <item>الاسبانية</item>
+        <item>الفرنسية</item>
+        <item>الايطالية</item>
+        <item>الهولندية</item>
+        <item>النرويجية</item>
+        <item>البرتغالية</item>
+        <item>الروسية</item>
+        <item>سامي الشمالية</item>
+
+        <item>الصينية</item>
+
+    </string-array>
+
+
+    <string-array name="sort_options">
+
+        <item>تاريخ النشر</item>
+        <item>الأرتباط</item>
+
+        <item>الشعبية</item>
+
+    </string-array>
+
+
+</resources>

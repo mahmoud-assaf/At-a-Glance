@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemview"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:background="@drawable/bg_round_corner_light"
+        android:contentDescription="@string/headline_image"
+        android:padding="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_loading" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:layout_marginStart="2dp"
+        android:fontFamily="@font/roboto_medium"
+        android:maxLines="4"
+        android:minLines="3"
+        android:padding="2dp"
+        android:singleLine="false"
+        android:text="@string/longtitle"
+        android:textColor="#3c3a3a"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/source"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/roboto_medium"
+        android:padding="2dp"
+        android:textColor="#757373"
+        app:layout_constraintBaseline_toBaselineOf="@+id/publishedat"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/publishedat"
+        android:layout_width="0dp"
+        android:layout_height="19dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="8dp"
+
+        android:fontFamily="serif"
+        android:padding="2dp"
+        android:textColor="#757373"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:maxLines="4"
+        android:minLines="3"
+        android:padding="2dp"
+        android:singleLine="false"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+</android.support.constraint.ConstraintLayout>
